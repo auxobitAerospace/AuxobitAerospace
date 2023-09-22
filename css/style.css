@@ -52,7 +52,7 @@ body {
   padding: 85px 0;
 }
 .layout_padding_about_img {
-  padding-left: 350px;
+  padding-left: 250px;
 }
 .layout_padding2 {
   padding: 55px 0;
@@ -548,6 +548,7 @@ font-weight: lighter;
 }
 .service_section p
 {
+  color: #999; 
   text-transform: none;
 }
 .service_section .box .img-box {
@@ -1043,6 +1044,9 @@ font-weight: lighter;
 .info_section {
   background-color:black;
   color: #ffffff;
+}
+.info_section p{
+  color: #999
 }
 
 .info_section h4,h3,h5 {
