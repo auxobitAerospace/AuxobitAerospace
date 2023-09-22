@@ -552,6 +552,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.service-container {
+  justify-content: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
 
 @media (min-width: 576px) {
   .container {
@@ -615,6 +622,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .col {
@@ -1068,6 +1076,16 @@ pre code {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .col-md-13 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 15%;
+  }
+  .col-md-14 {
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 10%;
   }
   .order-md-first {
     -ms-flex-order: -1;
